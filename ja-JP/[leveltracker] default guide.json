@@ -1,0 +1,2176 @@
+[
+  [
+    [
+      "ヒロックを探して倒す",
+      "areaid1_1_town に入る (img:town)"
+    ],
+    [
+      "タークリー: <enemy_at_the_gate>",
+      "areaid1_1_2 に入る"
+    ],
+    [
+      "(img:waypoint) を有効にする",
+      "areaid1_1_3 に入る"
+    ],
+    [
+      "水流を辿り、3つの (quest:グリフ) を見つける",
+      "(hint)__ 小川は三角形または直線を形成している",
+      "areaid1_1_4_1 を見つけて入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) で areaid1_1_2 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "areaid1_1_2a に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "ヘイルレイクを探して倒し、 (quest:薬箱) を入手",
+        "(hint)__ (img:6) へ進む。崖がある場合は (img:2) へ進む",
+        "(hint)__ 推奨レベル: 4",
+        "areaid1_1_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "タークリー: <breaking_some_eggs1>, <breaking_some_eggs2>",
+        "ネッサ: <mercy_mission>",
+        "(img:waypoint) で areaid1_1_4_1 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "橋または (img:arena) 水没した海底洞窟 を見つけ、 (img:portal) を設置",
+        "橋を渡り、 areaid1_1_5 を見つけて入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:waypoint) で (color:fec076)隠れ家 || (color:ff00ff)ジェム購入 || (img:waypoint) で (color:fec076)水没した通路 || リリィ: <mercy_mission>, <breaking_some_eggs1>, <breaking_some_eggs2>",
+        "橋または (img:arena) 水没した海底洞窟 を見つけ、 (img:portal) を設置",
+        "橋を渡り、 areaid1_1_5 を見つけて入る"
+      ]
+    },
+    [
+      "壁に沿って areaid1_1_6 へ",
+      "(hint)__ 安全なルート: 崖に沿って進む"
+    ],
+    [
+      "areaid1_1_7_1 に入る"
+    ],
+    [
+      "(img:waypoint) で areaid1_1_town へ (img:town)"
+    ],
+    [
+      "(img:portal) で areaid1_1_4_1 へ"
+    ],
+    [
+      "areaid1_1_4_0 を見つけて入る",
+      "(hint)__ 通常は橋の手前の (img:6) または (img:1)、稀に (img:3)"
+    ],
+    [
+      "海の住人を探して倒す",
+      "(hint)__ 入口の斜め反対側を探す",
+      "areaid1_1_town にリログ (img:town)"
+    ],
+    [
+      "タークリー: <the_dweller_of_the_deep>",
+      "ネッサ: <the_caged_brute1>",
+      "(img:waypoint) で areaid1_1_7_1 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 試練を完了する",
+        "(hint)__ 通常はエリア内の (img:1)",
+        "areaid1_1_7_2 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid1_1_7_2 に入る"
+      ]
+    },
+    [
+      "オプション: ストロングボックス を見つける",
+      "(hint)__ 水銀のフラスコの高確率",
+      "(hint)__ 商人: 水銀 + 増大 + 靴 || 水銀 + 増大 + 移動速度靴",
+      "ブルータスを探して倒す || areaid1_1_town にリログ (img:town)",
+      "(hint)__ 推奨レベル: 8-10"
+    ],
+    [
+      "タークリー: <the_caged_brute2>",
+      "(img:waypoint) で areaid1_1_8 へ"
+    ],
+    [
+      "道路沿いの崖の側道へ進む",
+      "壁に沿って areaid1_1_9 へ"
+    ],
+    [
+      "(img:arena) areaid1_1_9a を見つけ、 (img:portal) を設置",
+      "areaid1_1_11_1 を見つけて入る"
+    ],
+    [
+      "(img:waypoint) で areaid1_1_town へ (img:town)"
+    ],
+    [
+      "(img:portal) で areaid1_1_9 へ"
+    ],
+    [
+      "areaid1_1_9a に入る"
+    ],
+    [
+      "(quest:オールフレイム) のための (quest:少女) を見つける",
+      "(hint)__ 入口の斜め反対側を探す || areaid1_1_9 に入る",
+      "フェアグレーヴズを倒す || areaid1_1_town にリログ (img:town)"
+    ],
+    [
+      "ベストル: <the_marooned_mariner>",
+      "ネッサ: <the_siren's_cadence>",
+      "(img:waypoint) で areaid1_1_11_1 へ"
+    ],
+    [
+      "水に沿って areaid1_1_11_2 へ"
+    ],
+    [
+      "水に沿って (img:arena) マーヴェイルの隠れ家へ",
+      "マーヴェイルを倒し、 areaid1_2_1 に入る",
+      "(hint)__ 推奨レベル: 11-13"
+    ]
+  ],
+  [
+    [
+      "(img:1) の端に沿って areaid1_2_town へ (img:town)"
+    ],
+    [
+      "(img:1) へ進み areaid1_2_2 へ"
+    ],
+    [
+      "オプション: フラスコ / <belt> (クエスト)",
+      "(hint)__ (img:arena) areaid1_2_2a を見つけ、 (img:portal) を設置",
+      "道路に沿って areaid1_2_3 へ"
+    ],
+    [
+      "道路に沿って進み、 (img:waypoint) を有効にする",
+      "オプション: フラスコ / <belt> (クエスト)",
+      "(hint)__ (img:waypoint) で街へ || (img:portal) に入る || (img:arena) 巣穴 に入る",
+      "(hint)__ 白き獣を倒す || リログ || (img:quest) イーナに話す",
+      "(img:7) へ進み areaid1_2_6_1 へ"
+    ],
+    [
+      "areaid1_2_6_2 に入る",
+      "(hint)__ 中央の部屋へ (img:waypoint) と同じ方向に進んでください"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 試練を完了する",
+        "長い廊下を見つけ、フィデライタスを倒して (quest:悪意の宝石) を入手",
+        "(hint)__ 推奨レベル: 14-15",
+        "areaid1_2_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "長い廊下を見つけ、フィデライタスを倒して (quest:悪意の宝石) を入手",
+        "(hint)__ 推奨レベル: 14-15",
+        "areaid1_2_town にリログ (img:town)"
+      ]
+    },
+    [
+      "グルースト: <intruders_in_black>",
+      "(img:waypoint) で areaid1_2_3 へ"
+    ],
+    [
+      "(img:3) へ進み areaid1_2_15 へ"
+    ],
+    [
+      "道路に沿って areaid1_2_5_1 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 試練を完了する",
+        "areaid1_2_5_2 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid1_2_5_2 に入る"
+      ]
+    },
+    [
+      "(quest:祭壇) を見つけ、 (quest:黄金の手) を取る",
+      "(hint)__ 入口の斜め反対側を探す",
+      "areaid1_2_town にリログ (img:town)"
+    ],
+    [
+      "イーナ: <through_sacred_ground>",
+      "(img:5) へ進み areaid1_2_7 へ"
+    ],
+    [
+      "道路に沿って進み、 (img:waypoint) を有効にする",
+      "道路に沿って areaid1_2_9 へ"
+    ],
+    [
+      "道路に沿って進み、 (img:waypoint) を有効にする",
+      "areaid1_2_10 に入る",
+      "(hint)__ (img:waypoint) の反対側の道路脇を探す"
+    ],
+    [
+      "編む者を探して倒し、 (quest:マリガロの棘) を入手",
+      "(hint)__ 入口から (img:6) へ進む。塞がっている場合は (img:1) へ",
+      "(hint)__ 推奨レベル: 16",
+      "areaid1_2_town にリログ (img:town)"
+    ],
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "シルク: <sharp_and_cruel>",
+        "(img:waypoint) で areaid1_2_3 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:1) へ進み areaid1_2_4 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "オプション: 宝箱 + 3人のならず者亡命者",
+        "(hint)__ 道路を (img:waypoint) まで辿り、近くの遺跡を探す",
+        "道路に沿って進み、クレイティンを倒して (quest:クレイティンのお守り) を入手",
+        "areaid1_2_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "シルク: <sharp_and_cruel>",
+        "(img:waypoint) で areaid1_2_7 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) で areaid1_2_7 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "2本の柱の間の小道を areaid1_2_12 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "オークを探して倒し、 (quest:オークのお守り) を入手",
+        "(img:waypoint) で areaid1_2_9 へ",
+        "(hint)__ 通常は (img:1) または (img:7)、稀に (img:5)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) で areaid1_2_9 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "kraityn",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "道路の松明まで (img:4) へ進む || 脇道を進み、アリーラを倒して (quest:アリーラのお守り) を入手",
+        "本道を進み、アルテリを倒して (quest:魔術の徽章) を入手",
+        "(quest:魔術の封印) を有効にする || areaid1_2_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "alira"
+        ]
+      ],
+      "lines": [
+        "道路の松明まで (img:4) へ進む || 脇道を進み、 (color:ff8111)アリーラを助けて (quest:エイペックス) を入手",
+        "本道を進み、アルテリを倒して (quest:魔術の徽章) を入手",
+        "(quest:魔術の封印) を有効にする || areaid1_2_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none"
+        ]
+      ],
+      "lines": [
+        "エラミール: <deal_with_the_bandits>, (quest:エイペックス) を受け取る",
+        "(img:waypoint) で areaid1_1_town へ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "alira",
+          "kraityn",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) で areaid1_1_town へ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "ベストル: <the_way_forward>",
+        "(img:waypoint) で areaid1_2_3 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:1) へ進み areaid1_2_4 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "オプション: 宝箱 + 3人のならず者亡命者",
+        "(hint)__ 道路を (img:waypoint) まで辿り、近くの遺跡を探す",
+        "道路に沿って進み、 (color:ff8111)クレイティンを助け、 (quest:エイペックス) を受け取る",
+        "areaid1_2_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "ベストル: <the_way_forward>",
+        "(img:waypoint) で areaid1_2_7 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "2本の柱の間の小道を areaid1_2_12 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(color:ff8111)オークを助け、 (quest:エイペックス) を受け取る",
+        "(quest:木の根) に毒を盛り、 areaid1_2_11 に入る",
+        "(hint)__ 通常は (img:1) または (img:7)、稀に (img:5)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira"
+        ]
+      ],
+      "lines": [
+        "ベストル: <the_way_forward>",
+        "(img:waypoint) で areaid1_2_12 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) で areaid1_2_12 へ"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(quest:木の根) に毒を盛り、 areaid1_2_11 に入る"
+      ]
+    },
+    [
+      "areaid1_2_8 を見つけて入る",
+      "(hint)__ エリアは通常S字またはL字型"
+    ],
+    [
+      "areaid1_2_14_2 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) を見つけて有効にする",
+        "隅々を探して areaid1_2_14_3 へ",
+        "(hint)__ 隠された (img:craft): 2つの柱スイッチがある閉じた扉"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:waypoint) を見つけて有効にする",
+        "隅々を探して areaid1_2_14_3 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:arena) ピラミッド頂上 を見つけて入り、ヴァールオーバーソウルを倒す",
+        "(hint)__ 1つ目の (img:arena) 階段はランダムな角に、その後は斜め反対側",
+        "(hint)__ 推奨レベル: 20-22",
+        "(img:craft) を有効にする || areaid1_3_1 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:arena) ピラミッド頂上 を見つけて入り、ヴァールオーバーソウルを倒す",
+        "(hint)__ 1つ目の (img:arena) 階段はランダムな角に、その後は斜め反対側",
+        "(hint)__ 推奨レベル: 20-22",
+        "areaid1_3_1 に入る"
+      ]
+    }
+  ],
+  [
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を有効にする",
+        "助けて (img:quest) クラリッサに話す",
+        "(img:5) の端に沿って areaid1_3_town へ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "助けて (img:quest) クラリッサに話す",
+        "(img:5) の端に沿って areaid1_3_town へ (img:town)"
+      ]
+    },
+    [
+      "areaid1_3_2 に入る"
+    ],
+    [
+      "areaid1_3_3_1 を見つけて入る",
+      "(hint)__ 入口の斜め反対側を探す"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 試練を完了する",
+        "パイエティを探して倒し、 (quest:トールマンの腕輪) を入手",
+        "(img:craft) を有効にする || areaid1_3_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "パイエティを探して倒し、 (quest:トールマンの腕輪) を入手",
+        "areaid1_3_town にリログ (img:town)"
+      ]
+    },
+    [
+      "マラモラ: <lost_in_love>",
+      "(img:quest) クラリッサに話し、 (quest:塔の鍵) を受け取る",
+      "areaid1_3_2 に入る"
+    ],
+    [
+      "(img:quest) (quest:下水道) を見つけて開ける",
+      "areaid1_3_10_1 に入る"
+    ],
+    [
+      "1x (quest:プラチナの胸像) を見つける || (img:waypoint) を有効にする",
+      "2x (quest:プラチナの胸像) を見つける || areaid1_3_5 に入る",
+      "(hint)__ 2つ目の (quest:胸像) が広い部屋(T)にある場合、3つ目は (img:0)。それ以外は (img:2)"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:waypoint) を有効にする",
+        "(img:waypoint) で areaid1_3_town へ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) を見つけて有効にする",
+        "近くの areaid1_3_6 を見つけて入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 試練を完了する || (img:craft) を有効にする",
+        "(hint)__ (img:arena) 入口の壁に平行に移動すると見つけやすい",
+        "areaid1_3_town にリログ (img:town)"
+      ]
+    },
+    [
+      "ハーガン: <victario's_secrets>",
+      "(img:waypoint) で areaid1_3_5 へ"
+    ],
+    [
+      "areaid1_3_7 に入る",
+      "(hint)__ 通常は (img:1) または (img:0)、稀に (img:5)"
+    ],
+    [
+      "(img:6) へ進み (img:waypoint) を有効にする",
+      "(img:5) へ進み (quest:リボンスプール) を見つける",
+      "(img:1) へ進み areaid1_3_8_1 へ"
+    ],
+    [
+      "areaid1_3_8_2 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) を見つけて有効にする",
+        "(hint)__ (img:craft) は (img:waypoint) 近くの (img:arena) 永遠の研究所 にある",
+        "(img:waypoint) で areaid1_3_7 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:waypoint) を見つけて有効にする",
+        "(img:waypoint) で areaid1_3_7 へ"
+      ]
+    },
+    [
+      "(img:7) へ進み areaid1_3_9 へ",
+      "(hint)__ 推奨レベル: 24"
+    ],
+    [
+      "(quest:魔術燃料) を見つける",
+      "areaid1_3_town にリログ (img:town)"
+    ],
+    [
+      "(img:waypoint) で areaid1_3_8_2 へ"
+    ],
+    [
+      "ディアラ: <the_ribbon_spool>",
+      "ディアラ: <fiery_dust>, (quest:インファーナルタルク) を受け取る",
+      "(img:waypoint) で areaid1_3_10_1 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(quest:undying_blockage) を燃やす",
+        "(img:craft) を有効にする || areaid1_3_13 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(quest:undying_blockage) を燃やす",
+        "areaid1_3_13 に入る"
+      ]
+    },
+    [
+      "(img:waypoint) を有効にする",
+      "(img:7) へ進み グラビシウス将軍を倒す",
+      "(img:7) へ進み areaid1_3_14_1 へ"
+    ],
+    [
+      "areaid1_3_14_2 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "パイエティを探して倒し、 (quest:塔の鍵) を入手",
+        "(hint)__ 進む: 上る階段、分岐点の単一の荷車",
+        "(hint)__ 推奨レベル: 27",
+        "(img:craft) を有効にする || areaid1_3_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "パイエティを探して倒し、 (quest:塔の鍵) を入手",
+        "(hint)__ 進む: 上る階段、分岐点の単一の荷車",
+        "(hint)__ 推奨レベル: 27",
+        "areaid1_3_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "マラモラ: <腹心の部下を倒せ>",
+        "グリゴー: <パイエティのペット>",
+        "(img:waypoint) で areaid1_3_13 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "マラモラ: <腹心の部下を倒せ>",
+        "グリゴー: <パイエティのペット>",
+        "(img:waypoint) で (color:fec076)隠れ家 || (color:ff00ff)ジェム購入 || リリィ: <a_fixture_of_fate>",
+        "(img:waypoint) で areaid1_3_13 へ"
+      ]
+    },
+    [
+      "(img:1) へ進み areaid1_3_15 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "道路に沿って進み、 (img:waypoint) を有効にする",
+        "(img:0) へ進み (img:lab) 試練と (img:craft) へ",
+        "areaid1_3_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) で areaid1_3_15 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:7) へ進み areaid1_3_17_1 へ",
+        "quest-check: <a_fixture_of_fate>"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) を有効にする",
+        "緩んだろうそくを見つけ、 areaid1_3_17_2 に入る",
+        "quest-check: <a_fixture_of_fate>"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "4x (quest:金のページ) を見つける",
+        "(hint)__ 隠された (img:craft): 狭い廊下のろうそく",
+        "areaid1_3_town にリログ (img:town)",
+        "quest-check: <a_fixture_of_fate>"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "通貨をいくらか入手する",
+        "(img:waypoint) で areaid1_3_17_1 へ",
+        "quest-check: <a_fixture_of_fate>"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "シオサ: <a_fixture_of_fate>",
+        "(img:waypoint) で areaid1_3_15 へ",
+        "quest-check: <a_fixture_of_fate>"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "早期オプション: (img:lab) 通常のラビリンス (33) を完了する",
+        "(hint)__ ビルド依存、後ほど再度リマインダーがあります。",
+        "(hint)__ (img:waypoint) で (color:fec076)街 (img:town), areaidlabyrinth_airlock に入る",
+        "荷車に沿って areaid1_3_18_1 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "道路に沿って進み、 (img:waypoint) を有効にする",
+        "早期オプション: (img:lab) 通常のラビリンス (33) を完了する",
+        "(hint)__ ビルド依存、後ほど再度リマインダーがあります",
+        "荷車に沿って areaid1_3_18_1 へ"
+      ]
+    },
+    [
+      "areaid1_3_18_2 を見つけて入る",
+      "(hint)__ フロアは円形、 (img:arena) 階段は90°ごとにスポーン可能"
+    ],
+    [
+      "(img:arena) 塔の屋上 を見つけて入る",
+      "(hint)__ 同じゾーンレイアウト、貴族の檻の後は (img:1) へ進む",
+      "ドミナスを倒し、 areaid1_4_1 に入る",
+      "(hint)__ 推奨レベル: 28"
+    ]
+  ],
+  [
+    [
+      "areaid1_4_town に入る (img:town)"
+    ],
+    [
+      "(img:5) へ進み areaid1_4_2 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "ヴォールを探して倒し、 (quest:デシュレットの旗) を入手",
+        "(hint)__ 推奨レベル: 30",
+        "(img:craft) を有効にする || areaid1_4_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "ヴォールを探して倒し、 (quest:デシュレットの旗) を入手",
+        "(hint)__ 推奨レベル: 30",
+        "areaid1_4_town にリログ (img:town)"
+      ]
+    },
+    [
+      "areaid1_4_3_1 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を有効にする",
+        "areaid1_4_3_2 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid1_4_3_2 に入る"
+      ]
+    },
+    [
+      "(quest:デシュレット) を解放する",
+      "areaid1_4_3_3 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) と (img:waypoint) を見つけて有効にする",
+        "(img:waypoint) で areaid1_4_town へ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:waypoint) を見つけて有効にする",
+        "(img:waypoint) で areaid1_4_town へ (img:town)"
+      ]
+    },
+    [
+      "タスニ: <an_indomitable_spirit>",
+      "オユン: <breaking_the_seal>",
+      "通常オプション: (img:lab) 通常のラビリンス を完了する",
+      "(hint)__ (img:waypoint) で (color:fec076)A3_|_街 (img:town), areaidlabyrinth_airlock に入る",
+      "(img:waypoint) で areaid1_4_3_3 へ"
+    ],
+    [
+      "areaid1_4_5_1 に入る"
+    ],
+    [
+      "areaid1_4_5_2 に入る",
+      "(hint)__ 出口は通常 (img:1)、時々 (img:6)"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を有効にする",
+        "(img:waypoint) で areaid1_4_3_3 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:waypoint) で areaid1_4_3_3 へ"
+      ]
+    },
+    [
+      "areaid1_4_4_1 に入る"
+    ],
+    [
+      "(img:1) へ進み、その後橋を辿る",
+      "areaid1_4_4_3 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を有効にする || (img:arena) 王のカルデラに入る",
+        "カオムを倒して (quest:憤激の目) を入手 || (img:portal) で areaid1_4_town へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:arena) 王のカルデラに入る",
+        "カオムを倒して (quest:憤激の目) を入手 || (img:portal) で areaid1_4_town へ"
+      ]
+    },
+    [
+      "(img:waypoint) で areaid1_4_5_2 へ"
+    ],
+    [
+      "(img:arena) 刃のリング を見つけて入る",
+      "(hint)__ 道を辿り、可能な限り (img:7) へ進む",
+      "ダレッソを倒して (quest:欲望の目) を入手 || areaid1_4_town にリログ (img:town)"
+    ],
+    [
+      "(img:waypoint) で areaid1_4_3_3 へ"
+    ],
+    [
+      "(img:quest) ディアラ婦人に話す",
+      "areaid1_4_6_1 に入る"
+    ],
+    [
+      "areaid1_4_6_2 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:arena) 獣の腸 に入り、パイエティを倒す",
+        "(img:quest) パイエティに話す",
+        "(img:craft) を有効にする || areaid1_4_6_3 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:arena) 魔獣の深部 に入り、パイエティを倒す",
+        "(img:quest) パイエティに話す || areaid1_4_6_3 に入る"
+      ]
+    },
+    [
+      "ドードゥリ、 (color:ff8111)マリガロ、 (color:ff8111)シャヴロンを探して倒す",
+      "(img:quest) パイエティに話し、 (img:arena) ブラックコアに入る",
+      "マラカイを倒す || areaid1_4_town にリログ (img:town)",
+      "(hint)__ 推奨レベル: 34-35"
+    ],
+    [
+      "ディアラ: <the_eternal_nightmare>",
+      "areaid1_4_7 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を有効にする",
+        "(img:quest) (quest:レゾネーター) を有効にし、 areaid1_5_1 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) (quest:レゾネーター) を有効にし、 areaid1_5_1 に入る"
+      ]
+    }
+  ],
+  [
+    [
+      "(img:5) の端に沿って、吊るされたカルイがいる廊下へ",
+      "(hint)__ 出口は常に廊下の (img:5)、時計回りに移動して到達する",
+      "監視員クロウを倒し、 areaid1_5_town に入る (img:town)"
+    ],
+    [
+      "ラニ: <return_to_oriath>",
+      "areaid1_5_2 に入る"
+    ],
+    [
+      "(img:7) へ進み、 (quest:瘴気計) を見つける",
+      "(img:1) へ進み、カスティカスを倒して (quest:熱情の目) を入手",
+      "areaid1_5_3 に入る"
+    ],
+    [
+      "(img:1) へ進み areaid1_5_4 へ"
+    ],
+    [
+      "時計回りに移動し、 areaid1_5_5 に入る",
+      "(hint)__ 推奨レベル: 37+ || ファームレベル: 40-42"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "反時計回りに移動し、 (img:arena) イノセンスの聖域 に入る",
+        "(hint)__ (img:craft) は途中の側廊ある",
+        "アヴァリウスを倒す || areaid1_5_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "反時計回りに移動し、 (img:arena) イノセンスの聖域 に入る",
+        "アヴァリウスを倒す || areaid1_5_town にリログ (img:town)"
+      ]
+    },
+    [
+      "ラニ: <the_key_to_freedom> & <death_to_purity>",
+      "ヴァイレンタ: <in_service_to_science>",
+      "(img:waypoint) で areaid1_5_5 へ"
+    ],
+    [
+      "areaid1_5_4b に入る"
+    ],
+    [
+      "反時計回りに移動し、 areaid1_5_3b に入る"
+    ],
+    [
+      "(img:7) へ進み、 (img:waypoint) を有効にする",
+      "areaid1_5_6 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(quest:浄化の印) を見つける || (img:craft) を有効にする",
+        "areaid1_5_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(quest:浄化の印) を見つける",
+        "areaid1_5_town にリログ (img:town)"
+      ]
+    },
+    [
+      "(img:waypoint) で areaid1_5_3b へ"
+    ],
+    [
+      "(img:5) へ進み広場へ",
+      "オプション: <weapon> (クエスト)",
+      "(hint)__ (img:3) へ進み、ウトゥラを倒す",
+      "(img:4) へ進み areaid1_5_7 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "角近くで 3x (quest:キタヴァの苦悩) を見つける",
+        "(img:craft) を有効にする || areaid1_5_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "角近くで 3x (quest:キタヴァの苦悩) を見つける",
+        "areaid1_5_town にリログ (img:town)"
+      ]
+    },
+    [
+      "ラニ: <キタヴァの苦悩>",
+      "オプション: アリーナ:ウトゥラ クエスト",
+      "(hint)__ (img:quest) バノンに話す",
+      "(img:waypoint) で areaid1_5_3b へ"
+    ],
+    [
+      "(img:5) へ進み areaid1_5_8 へ"
+    ],
+    [
+      "(img:arena) 聖堂の屋上 に入り、キタヴァを倒す",
+      "(img:quest) リリィに話し、 areaid2_6_town へ航海する (img:town)"
+    ]
+  ],
+  [
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "areaid2_6_1 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "全てを倒す",
+        "areaid2_6_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "リリィ: <fallen_from_grace>",
+        "areaid2_6_2 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:waypoint) で (color:fec076)隠れ家 || (color:ff00ff)ジェム購入 || (img:waypoint) で areaid2_6_town (img:town) || リリィ: <fallen_from_grace>",
+        "areaid2_6_2 に入る"
+      ]
+    },
+    [
+      "areaid2_6_4 に入る"
+    ],
+    [
+      "(img:1) の端に沿って進み、女王を倒して (quest:征服の目) を入手",
+      "(img:7) の端に沿って areaid2_6_5 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:arena) トコハマの砦 に入り、トゥコハマを倒す",
+        "(img:craft) を有効にする || (img:0) へ進み areaid2_6_6 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:arena) トコハマの砦 に入り、トゥコハマを倒す",
+        "(img:0) へ進み areaid2_6_6 へ"
+      ]
+    },
+    [
+      "areaid2_6_7_1 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 試練を完了する || (img:craft) を有効にする",
+        "areaid2_6_7_2 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid2_6_7_2 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:arena) 監獄の屋上 に入り、シャヴロン＆ブルータスを倒す",
+        "(img:arena) 監獄長の拷問部屋 に入る",
+        "(img:craft) を有効にする || areaid2_6_8 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:arena) 監獄の屋上 に入り、シャヴロン＆ブルータスを倒す",
+        "(img:arena) 監獄長の拷問部屋 に入り、 areaid2_6_8 に入る"
+      ]
+    },
+    [
+      "道路に沿って areaid2_6_9 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "本道を areaid2_6_10 へ",
+        "(hint)__ (img:craft): 道路の松明で印された脇道を進む"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "道路を areaid2_6_10 へ"
+      ]
+    },
+    [
+      "道路に沿って進み、 (img:waypoint) を有効にする",
+      "2本の柱の間の小道を areaid2_6_11 へ"
+    ],
+    [
+      "(img:7) へ進み、 (img:arena) 産卵場所を見つけて入る",
+      "リスラーサを倒す || areaid2_6_town にリログ (img:town)"
+    ],
+    [
+      "タークリー: <father_of_war>, <essence_of_umbra>, <puppet_mistress>",
+      "(img:waypoint) で areaid2_6_10 へ"
+    ],
+    [
+      "道路を終点まで進む",
+      "(img:3) へ進み areaid2_6_12 へ"
+    ],
+    [
+      "areaid2_6_13 に入る"
+    ],
+    [
+      "(quest:ブラックフラッグ) を受け取る || areaid2_6_14 を見つけて入る",
+      "(hint)__ (img:arena) 出口は通常エリア内の (img:3) または (img:1)、稀に (img:7)"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "岸に沿って進み、 (img:craft) を有効にする",
+        "(quest:柱) を完了する || (quest:ビーコン) に火を灯し (quest:フラグ) を燃やす",
+        "(img:quest) ウェイラムに話し、 areaid2_6_15 へ航海する"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "岸に沿って進む",
+        "(quest:柱) を完了する || (quest:ビーコン) に火を灯し (quest:フラグ) を燃やす",
+        "(img:quest) ウェイラムに話し、 areaid2_6_15 へ航海する"
+      ]
+    },
+    [
+      "(img:arena) 海水の王の玉座 を見つけて入り、ツォアゴスを倒す",
+      "(img:quest) シンに話し、パンテオンを選択する",
+      "(img:quest) ウェイラムに話し、 areaid2_7_town へ航海する (img:town)"
+    ]
+  ],
+  [
+    [
+      "areaid2_7_1 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "道路を壊れた (img:waypoint) まで上る",
+        "近くの遺跡に入り、 (quest:銀のロケット) を取る",
+        "道路に沿って areaid2_7_2 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "道路を areaid2_7_2 へ"
+      ]
+    },
+    [
+      "道路に沿って進み、 (img:waypoint) を有効にする",
+      "(img:3) の道路を areaid2_7_3 へ"
+    ],
+    [
+      "道路に沿って areaid2_7_4 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 試練を完了する || (img:craft) を有効にする",
+        "(img:arena) 石棺を見つける || (quest:マリガロの地図) を見つける",
+        "areaid2_7_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:arena) 石棺 を見つける || (quest:マリガロの地図) を見つける",
+        "areaid2_7_town にリログ (img:town)"
+      ]
+    },
+    [
+      "(img:waypoint) で areaid2_7_2 へ"
+    ],
+    [
+      "(img:7) の道路を areaid2_7_5_1 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) と (img:waypoint) を有効にする",
+        "(quest:マリガロの地図) を (quest:マップデバイス) で使用する",
+        "areaid2_7_5_map に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "端と橋を辿って (img:arena) マリガロの工房 へ",
+        "マリガロを倒して (quest:ブラックヴェノム) を入手 || areaid2_7_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "ヘレナ: <essence_of_the_artist>",
+        "ウェイラム: <the_silver_locket>",
+        "(img:waypoint) で areaid2_7_5_1 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:waypoint) を有効にする",
+        "(quest:マリガロの地図) を (quest:マップデバイス) で使用する",
+        "areaid2_7_5_map に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "端と橋を辿って (img:arena) マリガロの工房 へ",
+        "マリガロを倒して (quest:ブラックヴェノム) を入手 || (img:portal) で areaid2_7_5_1 へ"
+      ]
+    },
+    [
+      "シルク: <web_of_secrets>, (quest:黒曜石の鍵) を受け取る",
+      "areaid2_7_5_2 に入る",
+      "(hint)__ (img:waypoint) が出口を指す"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 試練を完了する || (img:craft) を有効にする",
+        "(img:quest) (color:aaaaaa)隠し通路 を開けて areaid2_7_6 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) (color:aaaaaa)隠し通路 を開けて areaid2_7_6 へ"
+      ]
+    },
+    [
+      "areaid2_7_7 に入る"
+    ],
+    [
+      "早期オプション: (img:lab) 残酷なラビリンス (55) を完了する",
+      "(hint)__ ビルド依存、後ほど再度リマインダーがあります。",
+      "(img:5) へ進み、グルーストを倒す || areaid2_7_8 に入る"
+    ],
+    [
+      "(img:waypoint) で areaid2_7_town へ (img:town)"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "エラミール: <the_master_of_a_million_faces>",
+        "(img:waypoint) で areaid2_6_8 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "エラミール: <the_master_of_a_million_faces>",
+        "ヘレナ: <essence_of_the_artist>",
+        "(img:waypoint) で areaid2_6_8 へ"
+      ]
+    },
+    [
+      "(img:arena) 火を飲む者の谷 に入る",
+      "(hint)__ 道路沿いの崖に沿って進む",
+      "アバラスを倒す || (img:portal) で areaid2_6_town へ"
+    ],
+    [
+      "ベストル: <the_cloven_one>",
+      "(img:waypoint) で areaid2_7_8 へ"
+    ],
+    [
+      "areaid2_7_10 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を見つけて有効にする",
+        "(img:quest) (quest:キシャラの星) を受け取る || areaid2_7_11 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) (quest:キシャラの星) を受け取る || areaid2_7_11 に入る"
+      ]
+    },
+    [
+      "(img:waypoint) を見つけて有効にする",
+      "(img:waypoint) で areaid2_7_8 へ"
+    ],
+    [
+      "areaid2_7_9 を見つけて入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を見つけて有効にする",
+        "7x (quest:ホタル) を見つける || (img:arena) 絶望のねぐらを見つけ、グラスクルを倒す",
+        "(img:portal) で areaid2_7_town へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "7x (quest:ホタル) を見つける || (img:arena) 絶望のねぐらを見つけ、グラスクルを倒す",
+        "(img:portal) で areaid2_7_town へ"
+      ]
+    },
+    [
+      "ウェイラム: <kishara's_star>",
+      "エラミール: <queen_of_despair>",
+      "通常オプション: (img:lab) 残酷なラビリンス を完了する",
+      "(img:waypoint) で areaid2_7_11 へ"
+    ],
+    [
+      "イーナ: <lighting_the_way>",
+      "areaid2_7_12_1 に入る"
+    ],
+    [
+      "areaid2_7_12_2 に入る",
+      "(hint)__ (img:arena) 階段は斜め反対側、Zパターンで移動"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を見つける || (img:arena) アラカーリの巣に入る",
+        "(hint)__ (img:arena) 階段は斜め反対側、Zパターンで移動",
+        "アラカーリを倒す || areaid2_8_1 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:arena) アラカーリの巣に入る",
+        "(hint)__ (img:arena) 階段は斜め反対側、Zパターンで移動",
+        "アラカーリを倒す || areaid2_8_1 に入る"
+      ]
+    }
+  ],
+  [
+    [
+      "areaid2_8_town に入る (img:town)"
+    ],
+    [
+      "(img:6) へ進み areaid2_8_2_1 へ"
+    ],
+    [
+      "areaid2_8_2_2 に入る",
+      "(hint)__ 開始エリアは1つの出口があるループ。",
+      "(hint)__ 出口後は可能な限り (img:1) へ進む。"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:arena) 大釜 に入り、ドードゥリを倒す",
+        "(img:arena) 下水道出口 に入る",
+        "(img:craft) を有効にする || (img:1) へ進み areaid2_8_8 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:arena) 大釜 に入り、ドードゥリを倒す",
+        "(img:arena) 下水道出口 に入り、 (img:1) へ進み areaid2_8_8 へ"
+      ]
+    },
+    [
+      "(img:5) の端に沿って進み、 (quest:永遠のアンク) を見つける",
+      "(img:3) へ進み (img:arena) 蘇生地点 へ、トールマンを倒す",
+      "areaid2_8_9 を見つけて入る"
+    ],
+    [
+      "死んだ衛兵がいる扉を通ってゾーンを進む",
+      "(img:help) -アイコンの近くで ジェムリング軍団兵 を探して倒す",
+      "areaid2_8_10 を見つけて入る"
+    ],
+    [
+      "道路に沿って (img:waypoint) へ",
+      "(img:7) へ進み areaid2_8_12_1 へ"
+    ],
+    [
+      "(img:waypoint) を見つけて有効にする",
+      "areaid2_8_12_2 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "ドーンを探して倒し、 (quest:太陽の宝珠) を入手",
+        "(img:craft) を入手する || areaid2_8_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "ドーンを探して倒し、 (quest:太陽の宝珠) を入手",
+        "areaid2_8_town にリログ (img:town)"
+      ]
+    },
+    [
+      "マラモラ: <the_gemling_legion>",
+      "ハーガン: <essence_of_the_hag>",
+      "クラリッサ: <love_is_dead>",
+      "(img:waypoint) で areaid2_8_12_1 へ"
+    ],
+    [
+      "areaid2_8_11 に入る"
+    ],
+    [
+      "(img:5) へ進み areaid2_8_13 へ"
+    ],
+    [
+      "areaid2_8_6 に入る"
+    ],
+    [
+      "(img:7) へ進み (img:waypoint) を有効にする",
+      "(img:7) へ進み areaid2_8_7_1_ へ"
+    ],
+    [
+      "areaid2_8_7_2 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "ダスクを探して倒し、 (quest:月の宝珠) を入手",
+        "(hint)__ 進む: 上る階段、分岐点の単一の植木鉢",
+        "(img:craft) を入手する || areaid2_8_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "ダスクを探して倒し、 (quest:月の宝珠) を入手",
+        "(hint)__ 進む: 上る階段、分岐点の単一の植木鉢",
+        "areaid2_8_town にリログ (img:town)"
+      ]
+    },
+    [
+      "(img:waypoint) で areaid2_8_6 へ"
+    ],
+    [
+      "(img:3) へ進み areaid2_8_13 へ"
+    ],
+    [
+      "(img:arena) 天空の祠 に入り、ルナリス＆ソラリスを倒す",
+      "(hint)__ 推奨レベル: 54+",
+      "areaid2_9_1 に入る"
+    ]
+  ],
+  [
+    [
+      "ファームレベル: 58-62",
+      "areaid2_9_town に入る (img:town)",
+      "(img:waypoint) で areaid2_8_6 へ"
+    ],
+    [
+      "(img:4) へ進み areaid2_8_5 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:0) の端に沿って (img:lab) 試練と (img:craft) へ",
+        "(hint)__ マップ上の (img:help) -アイコンを探す",
+        "(img:0) の端に沿って areaid2_8_4 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:0) の端に沿って areaid2_8_4 へ"
+      ]
+    },
+    [
+      "(img:arena) 恐怖の泉 に入り、ユーグルを倒す",
+      "(img:portal) で areaid2_8_town へ"
+    ],
+    [
+      "ハーガン: <reflection_of_terror>",
+      "(img:waypoint) で areaid2_9_town へ (img:town)"
+    ],
+    [
+      "areaid2_9_2 に入る"
+    ],
+    [
+      "areaid2_9_3 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:2) へ進み、 (img:waypoint) を有効にする",
+        "(img:craft) を見つける || (quest:ストームブレード) を見つける",
+        "(img:7) へ進み areaid2_9_5 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:2) へ進み、 (img:waypoint) を有効にする",
+        "(quest:the_ストームブレード) を見つける",
+        "(img:7) へ進み areaid2_9_5 へ"
+      ]
+    },
+    [
+      "(img:1) へ進み、 (img:waypoint) を有効にする",
+      "areaid2_9_6 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:1) へ進み、バシリスクを倒して (quest:バジリスクアシッド) を入手",
+        "(img:craft) を有効にする || areaid2_9_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:1) へ進み、バシリスクを倒して (quest:バジリスクアシッド) を入手",
+        "areaid2_9_town にリログ (img:town)"
+      ]
+    },
+    [
+      "ペタルス: <the_ストームブレード>",
+      "(img:quest) シンに話す",
+      "ペタルス: <queen_of_sands>, (quest:瓶詰めの嵐) を受け取る",
+      "(img:waypoint) で areaid2_9_3 へ"
+    ],
+    [
+      "(img:1) へ進み areaid2_9_4 へ"
+    ],
+    [
+      "(img:arena) 砂のくぼみに入る",
+      "(hint)__ 通常はゾーンの (img:2) の端に沿って",
+      "シャカーリを倒す || areaid2_9_town にリログ (img:town)"
+    ],
+    [
+      "イラシャ: <queen_of_the_sands>",
+      "(img:waypoint) で areaid2_9_5 へ"
+    ],
+    [
+      "(img:7) へ進み areaid2_9_7 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:lab) 試練と (img:craft): (img:help) のある側廊",
+        "本道を areaid2_9_8 へ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "areaid2_9_8 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:7) へ進み、 (img:waypoint) と (img:craft) を有効にする",
+        "(img:5) と (img:1) を探し、 (img:arena) 風の祠に入る",
+        "ガルカーンを倒して (quest:セケマの羽) を入手 || areaid2_9_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:7) へ進み、 (img:waypoint) を有効にする",
+        "(img:5) と (img:1) を探し、 (img:arena) 風の祠に入る",
+        "ガルカーンを倒して (quest:セケマの羽) を入手 || areaid2_9_town にリログ (img:town)"
+      ]
+    },
+    [
+      "イラシャ: <the_ruler_of_highgate>",
+      "(img:waypoint) で areaid2_9_8 へ"
+    ],
+    [
+      "(img:7) と (img:1) を探し、 areaid2_9_9 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "トロッコの跡を辿ってゾーンを進む",
+        "(hint)__ (img:craft) は跡が格子で終わる場所にある",
+        "アダス将軍を倒して (quest:トラセンパウダー) を入手 || areaid2_9_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "トロッコの跡を辿ってゾーンを進む",
+        "アダス将軍を倒して (quest:トラセンパウダー) を入手 || areaid2_9_town にリログ (img:town)"
+      ]
+    },
+    [
+      "(img:waypoint) で areaid2_9_8 へ"
+    ],
+    [
+      "(img:quest) シンに話す",
+      "areaid2_9_10_1 に入る"
+    ],
+    [
+      "areaid2_9_10_2 に入る"
+    ],
+    [
+      "(img:arena) ブラックコアに入る || (img:quest) シンに話す || 3つのサブエリアをクリアする",
+      "(img:arena) ブラックハートに入り、堕落せる三位一体を倒す",
+      "(img:quest) リリィに話し、 areaid2_10_town へ航海する (img:town)"
+    ]
+  ],
+  [
+    [
+      "areaid2_10_1 に入る"
+    ],
+    [
+      "(img:0) へ進み (img:arena) 聖堂の屋上 へ、プレイグウィングを倒す",
+      "(img:3) へ進み areaid2_10_2 へ"
+    ],
+    [
+      "階段を下り、 (img:portal) を設置する",
+      "(img:5) の端に沿って areaid2_10_7 へ"
+    ],
+    [
+      "(img:waypoint) で areaid2_10_town へ (img:town)"
+    ],
+    [
+      "ラニ: <safe_passage>",
+      "(img:portal) で areaid2_10_2 へ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:2) の端に沿って進み、2番目の通路を進む",
+        "(img:1) へ進み、 (img:waypoint) を有効にする || areaid2_10_9 に入る"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を見つけて有効にする",
+        "(img:lab) 試練を完了する",
+        "areaid2_10_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:2) の端に沿って進み、2番目の通路を進む",
+        "(img:1) へ進み、 (img:waypoint) を有効にする || (img:lab) 無情なラビリンス を完了する",
+        "(img:waypoint) で areaid2_10_7 へ"
+      ]
+    },
+    [
+      "(img:lab) 無情なラビリンス を完了する",
+      "(img:waypoint) で areaid2_10_7 へ"
+    ],
+    [
+      "(img:7) の端に沿って進み、ヴァイレンタを倒す",
+      "areaid2_10_town にリログ (img:town)"
+    ],
+    [
+      "ラニ: <vilenta's_vengeance>",
+      "(img:waypoint) で areaid2_10_2 へ"
+    ],
+    [
+      "(img:3) へ進み areaid2_10_3 へ"
+    ],
+    [
+      "時計回りに移動し、 areaid2_10_4 に入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "反時計回りに移動し、 (img:arena) イノセンスの聖域に入る",
+        "(hint)__ (img:craft) は途中の側廊にある",
+        "アヴァリウスを倒して (quest:浄化の杖) を入手 || areaid2_10_town にリログ (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "反時計回りに移動し、 (img:arena) イノセンスの聖域 に入る",
+        "アヴァリウスを倒して (quest:浄化の杖) を入手 || areaid2_10_town にリログ (img:town)"
+      ]
+    },
+    [
+      "(img:quest) バノンに話す",
+      "ラニ: <death_and_rebirth>",
+      "(img:waypoint) で areaid2_10_2 へ"
+    ],
+    [
+      "(img:1) へ進み、 (img:quest) イノセンスに話す",
+      "areaid2_10_5 に入る"
+    ],
+    [
+      "areaid2_10_6 を見つけて入る"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を有効にし、 (img:quest) シンに話す",
+        "(img:arena) 飢餓の祭壇 に入り、キタヴァを倒す",
+        "(img:quest) シンに話す || areaid2_10_town に入る (img:town)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) シンに話す",
+        "(img:arena) 飢餓の祭壇 に入り、キタヴァを倒す",
+        "(img:quest) シンに話す || areaid2_10_town に入る (img:town)"
+      ]
+    },
+    [
+      "ラニ: <an_end_to_hunger>",
+      "(img:quest) リリィに話し、 areaid2_11_endgame_town へ航海する (img:town)"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:craft) を有効にする || (img:quest) キラックに話す",
+        "<チャットに「/passives」と入力して不足しているスキルポイントを確認>",
+        "<設定でACTトラッカーを無効にできるようになりました>"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "<チャットに「/passives」と入力して不足しているスキルポイントを確認>",
+        "<設定でACTトラッカーを無効にできるようになりました>"
+      ]
+    }
+  ]
+]
